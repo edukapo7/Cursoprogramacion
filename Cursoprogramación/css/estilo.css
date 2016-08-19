@@ -41,6 +41,14 @@ p {
 	font-size: 14px;
 	text-align: center;
 }
+.hobbie {
+	text-align: center;
+	margin: 0px;
+}
+#hobbies {
+	display: inline-block;
+	vertical-align: middle;
+}
 .secciones{
 	margin: 30px 40px;
 }
@@ -52,4 +60,26 @@ p {
 }
 #estudios {
 	margin-top: 0;
+}
+.menu {
+	text-align: center;
+}
+.item {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    margin: 10px 20px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    transition-duration: 1s;
+    transition-property: transform;
+}
+
+.item:hover,
+.item:focus,
+.item:active {
+    transform: scale(1.05);
+}
+a:link {
+	text-decoration: none; font-weight: 700;
 }
