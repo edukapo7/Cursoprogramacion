@@ -1,21 +1,28 @@
+/*//////////////////ACÁ ESTÁN LAS ETIQUETAS//////////////////*/
+html{
+	box-sizing: border-box;
+	height: 100%;
+}
+
 body {
+	background-color: #efefef;
 	font-family: "Raleway";
 	font-size: 14px;
 	line-height: 20px;
 	color: #333333;
 }
-h1.titulo-seccion {
-	font-size: 15px;
-	line-height: 22px;
-	font-weight: 800;
-	text-transform: uppercase;
+a:link {
+	text-decoration: none; font-weight: 700;
 }
-h1.nombre {
-	font-size: 28px;
-	line-height: 25px;
-	text-transform: uppercase;
-	margin-bottom: 0;
-	margin-top: 0;	
+nav {
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 940px;
+	max-height: 100%;
+}
+section {
+	margin: 30px 40px;
 }
 h2 {
 	color: #555555;
@@ -30,28 +37,15 @@ p {
 	line-height: 22px;
 	font-weight: 250;
 }
-.titulo-datos {
-	color: #333333;
-	font-size: 14px;
-	font-weight: 700;
-	text-align: center;
-}
-.datos {
-	color: #666666;
-	font-size: 14px;
-	text-align: center;
-}
-.hobbie {
-	text-align: center;
-	margin: 0px;
+/*//////////////////ACÁ ESTÁN LOS id//////////////////*/
+#c-derecha {
+	background-color: white;
 }
 #hobbies {
 	display: inline-block;
 	vertical-align: middle;
 }
-.secciones{
-	margin: 30px 40px;
-}
+
 #sobre-mi {
 	border-bottom: 2px solid #efefef;
 	border-top: 40px;
@@ -61,8 +55,19 @@ p {
 #estudios {
 	margin-top: 0;
 }
-.menu {
-	text-align: center;
+/*//////////////////ACÁ ESTÁN LOS CLASS//////////////////*/
+h1.titulo-seccion {
+	font-size: 15px;
+	line-height: 22px;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+h1.nombre {
+	font-size: 28px;
+	line-height: 25px;
+	text-transform: uppercase;
+	margin-bottom: 0;
+	margin-top: 0;	
 }
 .item {
     display: inline-block;
@@ -80,6 +85,29 @@ p {
 .item:active {
     transform: scale(1.05);
 }
-a:link {
-	text-decoration: none; font-weight: 700;
+	
+.titulo-datos {
+	display: inline-block;
+	width: 35%;
+}
+.datos {
+	display: inline-block;
+	width: 63%;
+	padding-top: 8px;
+	padding-bottom: 8px; 
+}
+.titulo-datos {
+	color: #333333;
+	font-size: 14px;
+	font-weight: 700;
+	text-align: center;
+}
+.datos {
+	color: #666666;
+	font-size: 14px;
+	text-align: center;
+}
+.hobbie {
+	display: inline-block;
+	margin: 0px;
 }
