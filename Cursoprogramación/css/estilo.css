@@ -70,22 +70,22 @@ h1.nombre {
 	margin-top: 0;	
 }
 .item {
-    display: inline-block;
-    vertical-align: middle;
-    transform: translateZ(0);
-    margin: 10px 20px;
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    backface-visibility: hidden;
-    transition-duration: 1s;
-    transition-property: transform;
+	display: inline-block;
+	vertical-align: middle;
+	transform: translateZ(0);
+	margin: 10px 20px;
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	backface-visibility: hidden;
+	transition-duration: 1s;
+	transition-property: transform;
 }
 
 .item:hover,
 .item:focus,
 .item:active {
-    transform: scale(1.05);
+	transform: scale(1.05);
 }
-	
+
 .titulo-datos {
 	display: inline-block;
 	width: 35%;
