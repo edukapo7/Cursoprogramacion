@@ -2,6 +2,11 @@
 html{
 	height: 100%;
 }
+li {
+	list-style: none;
+	padding-left: 0;
+
+}
 * {
 	box-sizing: border-box;
 }
@@ -41,8 +46,15 @@ p {
 	font-weight: 200;
 }
 /*//////////////////ACÁ ESTÁN LOS id//////////////////*/
+#c-izquierda {
+	width: 26%;
+	float: left;
+
+}
 #c-derecha {
 	background-color: white;
+	width: 72%;
+	float: right;
 }
 #hobbies {
 	display: inline-block;
@@ -89,7 +101,6 @@ h1.nombre {
 	transform: scale(1.05);
 }
 
-}
 .datos {
 	display: inline-block;
 	width: 63%;
@@ -107,9 +118,28 @@ h1.nombre {
 	display: inline-block;
 	width: 35%;
 }
-.hobbie {
+.hobbies {
 	display: inline-block;
 	margin: 0px;
+}
+.hobbie1 {
+	background-image: url("../Img/videojuegos.png");
+	width: 100%;
+	min-height: 140px; 
+
+}
+.hobbie2 {
+	background-image: url("../Img/tecnologías.jpg");
+	width: 100%;
+	min-height: 140px; 
+}
+.hobbie3 {
+	background-image: url("../Img/deporte.png");
+	width: 100%;
+	min-height: 140px; 
+}
+#contenedor {
+	;
 }
 .item a p {
 
