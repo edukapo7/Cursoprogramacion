@@ -7,6 +7,11 @@ li {
 	padding-left: 0;
 
 }
+li a {
+	display: inline-block;
+	width: 100%;
+
+}
 * {
 	box-sizing: border-box;
 }
@@ -20,7 +25,10 @@ body {
 }
 a {
 	text-decoration: none; 
-	font-weight: 700;
+}
+a:hover {
+	color: white;
+	background-color: #E8BA00;
 }
 nav {
 	margin-top: 40px;
@@ -71,6 +79,16 @@ p {
 	margin-top: 0;
 }
 /*//////////////////ACÁ ESTÁN LOS CLASS//////////////////*/
+.w-clearfix:before,
+                    	.w-clearfix:after {
+                    		content: " ";
+                    		display: table;
+                    	}
+ 
+                    	.w-clearfix:after {
+                    		clear: both;
+                    	}
+
 h1.titulo-seccion {
 	font-size: 15px;
 	line-height: 22px;
@@ -84,23 +102,6 @@ h1.nombre {
 	margin-bottom: 0;
 	margin-top: 0;	
 }
-.item {
-	display: inline-block;
-	vertical-align: middle;
-	transform: translateZ(0);
-	margin: 10px 20px;
-	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-	backface-visibility: hidden;
-	transition-duration: 1s;
-	transition-property: transform;
-}
-
-.item:hover,
-.item:focus,
-.item:active {
-	transform: scale(1.05);
-}
-
 .datos {
 	display: inline-block;
 	width: 63%;
@@ -120,23 +121,44 @@ h1.nombre {
 }
 .hobbies {
 	display: inline-block;
+	width: 100%;
+	min-height: 140px;
 	margin: 0px;
+	background-position: 0;
+	font-size: 16px;
+	font-weight: 600;
 }
+
 .hobbie1 {
 	background-image: url("../Img/videojuegos.png");
-	width: 100%;
+	width: 31%;
 	min-height: 140px; 
+	margin-left: 1px; 
+	margin-right: 1px;
+	float: left;
+	background-size: cover;
 
 }
+
 .hobbie2 {
-	background-image: url("../Img/tecnologías.jpg");
-	width: 100%;
+	background-image: url("../Img/tecnologias.jpg");
+	width: 31%;
 	min-height: 140px; 
+	margin-left: 1px; 
+	margin-right: 1px;
+	float: left;
+	background-size: cover;
+
 }
 .hobbie3 {
-	background-image: url("../Img/deporte.png");
-	width: 100%;
+	background-image: url("../Img/deporte.jpg");
+	width: 31%;
 	min-height: 140px; 
+	margin-left: 1px; 
+	margin-right: 1px;
+	float: left;
+	background-size: cover;
+
 }
 #contenedor {
 	;
